@@ -13,7 +13,5 @@ describe("First test suite", () => {
         browser.url("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
         loginPage.login("Admin", "admin123")
 
-        
-
     })
 })

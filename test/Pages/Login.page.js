@@ -12,10 +12,12 @@ class LoginPage{
     }
 
     get submitBtn(){
+
         return $("button[type='submit']")
     }
 
    async login(userName, password){
+    
         await this.usernameField().setValue(userName)
         await this.passwordField().setValue(password)
         await this.submitBtn().click()
