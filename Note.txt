@@ -1,0 +1,10 @@
+1. First install node
+2. check the version node -v and npm -v
+3. Create a folder and navigate to the folder on VS code ( VS code should install)
+4. npm init -y    // to add default setting it will generate package.json
+5. npm init wdio 
+        it will ask few steps to config your project.
+        here I used Mochaframework, Allure reporting, no Appium, POM and Spec. 
+        We can install in future by using npm command as per our requirement 
+6. Creating a POM model so Page folder is the Parent folder for my POM approach.
+7. Configure your git repo to push your changes to a dedicated repository.(https://github.com/chandan188/WebDriverIO)
